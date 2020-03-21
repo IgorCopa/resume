@@ -1,0 +1,59 @@
+@import "colors";
+
+body, *{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 1.3em;
+    color: $h1Color;
+}
+h1::before{
+    content: '⬛ ';
+}
+h1::after{
+    content: 'Jr. Web Developer';
+    font-size: .7em;
+    color: $h3Color;
+    display: block;
+    margin-top: -7px;
+    margin-left: 3.9em;
+}
+
+h2{
+    font-size: 1em;
+    color: $h2Color;
+    margin: .7em 0;
+}
+h2::after{
+    content: '';
+    display: block;
+    width: 1em;
+    height: .2em;
+    background-color: $h2Color;
+}
+
+h3{
+    font-size: .8em;
+    color: $h3Color;
+    margin-top: .3em;
+}
+h4{
+    font-size: .7em;
+    margin-bottom: .3em;
+}
+
+p, li{
+    font-size: .8em;
+}
+
+li{
+    list-style: none;
+}
+
+.link{
+    color: rgba(0, 0, 150, 1);
+    font-size: .9em;
+}

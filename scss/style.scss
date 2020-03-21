@@ -1,0 +1,147 @@
+@charset "utf-8";
+@import "colors";
+@import "reset";
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        order: 2;
+        width: 95%;
+        
+        .content{
+            text-align: justify;
+        }
+
+        li::before{
+            content: '- ';
+        }
+
+        .skills-right{
+
+            .ul{
+                display: flex;
+            }
+
+            .ulRight{
+                margin-left: 1.4em;
+            }
+
+            li::before{
+                content: '◾ ';
+            }
+        }
+    }
+
+    .personal-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        order: 1;
+        width: 100%;
+        height: 100%;
+        background-color: $backGroundLeft;
+
+        .personal-picture{
+            display: flex;
+            justify-content: center;
+
+            .my-photo{
+                width: 8rem;
+                height: 10rem;
+                border-radius: 50%;
+            }
+        }
+
+        .info{
+            width: 95%;
+        }
+
+        .interests{
+
+            .ul{
+                display: flex;
+            }
+
+            .ulRight{
+                margin-left: 1.4em;
+            }
+
+            li::before{
+                content: '◾ ';
+            }
+        }
+    }
+}
+
+@media (min-width: 400px){
+    .personal-info{
+
+        .info{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .ul{
+
+                .ulRight{
+                    margin-left: 7em;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 600px){
+    .container{
+        flex-direction: row;
+        align-items: flex-start;
+
+        .main{
+            width: 100%;
+            padding: 5px 10px;
+        }
+
+        .personal-info{
+            padding: 5px 10px;
+            height: 100vh;
+        }
+
+        .main{
+            width: 95%;
+        }
+
+        .personal-info{
+            width: 300px;
+            height: 100vh;
+
+            .info{
+                .ul{
+                    flex-direction: column;
+                    .ulRight{
+                        margin-left: 0em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 800px){
+    .container{
+        flex-direction: row;
+        align-items: flex-start;
+        max-width: 800px;
+        background-color: $backGroundRight;
+        margin: 0 auto;
+
+        .personal-info{
+            height: 115vh;
+        }
+    }
+}

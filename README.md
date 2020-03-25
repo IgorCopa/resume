@@ -1,7 +1,3 @@
 
-## My Resume
-### Technologies used:
-* HTML
-* CSS
-* Sass  
+## My Resume  
 Link here: https://igorcopa.github.io/resume/

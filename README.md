@@ -3,4 +3,5 @@
 * HTML
 * CSS
 * Sass
-Link here: https://igorcopa.github.io/resume/
+Link here:  
+https://igorcopa.github.io/resume/

@@ -1,6 +1,6 @@
-#My Resume
-###Technologies used:
-*HTML
-*CSS
-*Sass
+# My Resume
+### Technologies used:
+* HTML
+* CSS
+* Sass
 Link here: https://igorcopa.github.io/resume/

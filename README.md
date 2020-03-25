@@ -1,2 +1,6 @@
-##This is my resume I created in HTML and CSS, I also used sass.
+#My Resume
+###Technologies used:
+*HTML
+*CSS
+*Sass
 Link here: https://igorcopa.github.io/resume/

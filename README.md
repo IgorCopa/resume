@@ -1,4 +1,5 @@
-# My Resume
+
+## My Resume
 ### Technologies used:
 * HTML
 * CSS

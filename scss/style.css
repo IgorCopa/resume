@@ -135,6 +135,7 @@ li {
   width: 100%;
   height: 100%;
   background-color: #f0f0f0;
+  padding-top: 80px;
 }
 
 .container .personal-info .personal-picture {
@@ -199,6 +200,7 @@ li {
   .container .main {
     width: 100%;
     padding: 5px 10px;
+    padding-top: 80px;
   }
   .container .personal-info {
     padding: 5px 10px;

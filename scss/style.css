@@ -5,6 +5,10 @@ body, * {
   font-family: Helvetica, sans-serif;
 }
 
+body {
+  background-color: #a0a0a0;
+}
+
 h1 {
   font-size: 1.3em;
   color: #002800;

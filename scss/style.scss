@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: $backGroundRight;
+    background-color: $backgroundRight;
 
     .main{
         display: flex;
@@ -46,7 +46,7 @@
         order: 1;
         width: 100%;
         height: 100%;
-        background-color: $backGroundLeft;
+        background-color: $backgroundLeft;
 
         .personal-picture{
             display: flex;
@@ -134,7 +134,7 @@
         flex-direction: row;
         align-items: flex-start;
         max-width: 800px;
-        background-color: $backGroundRight;
+        background-color: $backgroundRight;
         margin: 0 auto;
 
         .personal-info{

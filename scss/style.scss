@@ -47,7 +47,7 @@
         width: 100%;
         height: 100%;
         background-color: $backgroundLeft;
-        padding: 80px;
+        padding-top: 80px;
 
         .personal-picture{
             display: flex;
@@ -103,11 +103,11 @@
     .container{
         flex-direction: row;
         align-items: flex-start;
-        padding: 80px;
 
         .main{
             width: 100%;
             padding: 5px 10px;
+            padding-top: 80px;
         }
 
         .personal-info{

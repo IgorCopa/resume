@@ -1,0 +1,177 @@
+@charset "UTF-8";
+body, * {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-color: #a0a0a0;
+}
+
+h1 {
+  font-size: 1.3em;
+  color: #002800;
+}
+
+h1::before {
+  content: "⬛ ";
+}
+
+h1::after {
+  content: "Jr. Web Developer";
+  font-size: 0.7em;
+  color: #003c00;
+  display: block;
+  margin-top: -7px;
+  margin-left: 3.9em;
+}
+
+h2 {
+  font-size: 1em;
+  color: #002d00;
+  margin: 0.7em 0;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 1em;
+  height: 0.2em;
+  background-color: #002d00;
+}
+
+h3 {
+  font-size: 0.8em;
+  color: #003c00;
+  margin-top: 0.3em;
+}
+
+h4 {
+  font-size: 0.7em;
+  margin-bottom: 0.3em;
+}
+
+p, li {
+  font-size: 0.8em;
+}
+
+li {
+  list-style: none;
+}
+
+.link {
+  color: #000096;
+  font-size: 0.9em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+.container .main {
+  display: flex;
+  flex-direction: column;
+  order: 2;
+  width: 95%;
+}
+.container .main .content {
+  text-align: justify;
+}
+.container .main li::before {
+  content: "- ";
+}
+.container .main .skills-right .ul {
+  display: flex;
+}
+.container .main .skills-right .ulRight {
+  margin-left: 1.4em;
+}
+.container .main .skills-right li::before {
+  content: "◾ ";
+}
+.container .personal-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  order: 1;
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  padding-top: 80px;
+}
+.container .personal-info .personal-picture {
+  display: flex;
+  justify-content: center;
+}
+.container .personal-info .personal-picture .my-photo {
+  width: 8rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+.container .personal-info .info {
+  width: 95%;
+}
+.container .personal-info .interests .ul {
+  display: flex;
+}
+.container .personal-info .interests .ulRight {
+  margin-left: 1.4em;
+}
+.container .personal-info .interests li::before {
+  content: "◾ ";
+}
+
+@media (min-width: 400px) {
+  .personal-info .info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .personal-info .info .ul .ulRight {
+    margin-left: 7em;
+  }
+}
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .container .main {
+    width: 100%;
+    padding: 5px 10px;
+    padding-top: 80px;
+  }
+  .container .personal-info {
+    padding: 5px 10px;
+    padding-top: 80px;
+    height: 100vh;
+  }
+  .container .personal-info {
+    width: 300px;
+    height: 100vh;
+  }
+  .container .personal-info .info .ul {
+    flex-direction: column;
+  }
+  .container .personal-info .info .ul .ulRight {
+    margin-left: 0em;
+  }
+}
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 800px;
+    background-color: white;
+    margin: 0 auto;
+  }
+  .container .personal-info {
+    height: 115vh;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
